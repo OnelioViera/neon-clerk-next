@@ -24,3 +24,12 @@ Once the application has been created on Clerk, you’ll find your API keys on t
 #### Create a Next.js Project and Install Dependencies
 
 Create a Next.js application in your development environment. This requires Node.js v18 or newer to be installed in your development environment. This article assumes you use the following options when creating your Next.js application using create-next-app.
+
+npx create-next-app@14.1 neon-clerk-next \
+--typescript \
+--eslint \
+--tailwind \
+--use-npm \
+--app \
+--src-dir \
+--import-alias "@/*"
