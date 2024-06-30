@@ -33,3 +33,7 @@ npx create-next-app@14.1 neon-clerk-next \
 --app \
 --src-dir \
 --import-alias "@/*"
+
+Once your Next.js application has been created, change to the project directory in your terminal, then add the Neon serverless driver and Drizzle ORM to your project’s dependencies using npm or your preferred package manager.
+
+`npm install @neondatabase/serverless drizzle-orm`
