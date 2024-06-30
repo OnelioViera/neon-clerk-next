@@ -1,1 +1,1 @@
-# Next.js authentication using Clerk, Drizzle ORM, and Neon
+## Next.js authentication using Clerk, Drizzle ORM, and Neon
