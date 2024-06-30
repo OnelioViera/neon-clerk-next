@@ -50,3 +50,8 @@ To use Neon’s serverless driver with Drizzle ORM, create a file named src/app/
 ![alt text](./public/images/index.ts.jpg)
 
 Next, create a file named .env.local in the root of the Next.js project directory and add your database URL from the Neon Console as an environment variable named DATABASE_URL.
+
+```
+# Copy this from your project dashboard on https://console.neon.tech
+DATABASE_URL=postgresql://user:pass@ep-adj-noun-12345.us-east-2.aws.neon.tech/mydatabase?sslmode=require
+```
