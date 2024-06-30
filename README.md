@@ -10,3 +10,9 @@ Learn how to build a Next.js application that uses Clerk for authentication and 
 You’ll instantly be provided with a connection string you can use to connect to your serverless Postgres database.
 
 ![alt text](./public/images/neon-dashboard.jpg)
+
+### Sign Up to Clerk and Configure Application Sign In
+
+Visit dashboard.clerk.com and sign up, or sign in if you’re an existing user. Create a new application and enable some of the available sign-in options. You can see that I’ve enabled Discord and Google as sign-in options for my application.
+
+![alt text](./public/images/clerk-sign-up.jpg)
