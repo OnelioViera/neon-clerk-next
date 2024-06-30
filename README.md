@@ -1,7 +1,7 @@
-## Next.js authentication using Clerk, Drizzle ORM, and Neon
+# Next.js authentication using Clerk, Drizzle ORM, and Neon
 Learn how to build a Next.js application that uses Clerk for authentication and Neon's Serverless Postgres with Drizzle ORM to store data.
 
-### Sign Up to Neon and Configure Postgres
+## Sign Up to Neon and Configure Postgres
 1. Enter a project name.
 2. Use the default database name of `neondb`.
 3. Choose the region closest to the location where your application will be deployed.
@@ -11,8 +11,14 @@ You’ll instantly be provided with a connection string you can use to connect t
 
 ![alt text](./public/images/neon-dashboard.jpg)
 
-### Sign Up to Clerk and Configure Application Sign In
+## Sign Up to Clerk and Configure Application Sign In
 
-Visit dashboard.clerk.com and sign up, or sign in if you’re an existing user. Create a new application and enable some of the available sign-in options. You can see that I’ve enabled Discord and Google as sign-in options for my application.
+Visit dashboard.clerk.com and sign up, or sign in if you’re an existing user. Create a new application and enable some of the available sign-in options.
 
 ![alt text](./public/images/clerk-sign-up.jpg)
+
+Once the application has been created on Clerk, you’ll find your API keys on the Home screen of your application in the Clerk dashboard. Specifically, you’ll need the API keys listed in the Next.js section soon!
+
+## Using Neon’s Serverless Driver with Next.js and Drizzle ORM
+
+#### Create a Next.js Project and Install Dependencies
