@@ -55,3 +55,7 @@ Next, create a file named .env.local in the root of the Next.js project director
 # Copy this from your project dashboard on https://console.neon.tech
 DATABASE_URL=postgresql://user:pass@ep-adj-noun-12345.us-east-2.aws.neon.tech/mydatabase?sslmode=require
 ```
+
+### Start your Application
+
+Use the npm run dev command to start your Next.js application in development mode and confirm it’s available at http://localhost:3000. You won’t be prompted to authenticate since you haven’t added the Clerk middleware to your application yet – you’ll take care of that soon.
