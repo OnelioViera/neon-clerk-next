@@ -44,3 +44,9 @@ Once your Next.js application has been created, change to the project directory 
 Create a file named src/app/db/schema.ts and define a user_messages schema using the types provided by Drizzle ORM.
 
 ![alt text](./public/images/schema.jpg)
+
+To use Neon’s serverless driver with Drizzle ORM, create a file named src/app/db/index.ts and add the following code. Exporting the Drizzle instance from a file means it’s created on application startup and exported as a singleton that other modules can import and reuse to execute typesafe SQL queries against your Postgres database hosted by Neon.
+
+![alt text](./public/images/index.ts.jpg)
+
+Next, create a file named .env.local in the root of the Next.js project directory and add your database URL from the Neon Console as an environment variable named DATABASE_URL.
