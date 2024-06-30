@@ -20,5 +20,4 @@ Visit dashboard.clerk.com and sign up, or sign in if you’re an existing user. 
 Once the application has been created on Clerk, you’ll find your API keys on the Home screen of your application in the Clerk dashboard. Specifically, you’ll need the API keys listed in the Next.js section soon!
 
 ## Using Neon’s Serverless Driver with Next.js and Drizzle ORM
-
 #### Create a Next.js Project and Install Dependencies
