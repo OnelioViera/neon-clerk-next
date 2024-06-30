@@ -24,8 +24,8 @@ Once the application has been created on Clerk, you’ll find your API keys on t
 #### Create a Next.js Project and Install Dependencies
 
 Create a Next.js application in your development environment. This requires Node.js v18 or newer to be installed in your development environment. This article assumes you use the following options when creating your Next.js application using create-next-app.
-
-npx create-next-app@14.1 neon-clerk-next \
+```
+npx create-next-app@14.1 neon-clerk-next
 --typescript \
 --eslint \
 --tailwind \
@@ -33,7 +33,14 @@ npx create-next-app@14.1 neon-clerk-next \
 --app \
 --src-dir \
 --import-alias "@/*"
+```
 
 Once your Next.js application has been created, change to the project directory in your terminal, then add the Neon serverless driver and Drizzle ORM to your project’s dependencies using npm or your preferred package manager.
 
 `npm install @neondatabase/serverless drizzle-orm`
+
+### Create a Schema and Database Connection
+
+Create a file named src/app/db/schema.ts and define a user_messages schema using the types provided by Drizzle ORM.
+
+![alt text](./public/images/schema.jpg)
